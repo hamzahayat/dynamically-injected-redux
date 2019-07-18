@@ -18,14 +18,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hamzahayat/dynamicly-injected-redux.git"
+    "url": "git+https://github.com/hamzahayat/dynamically-injected-reducer.git"
   },
   "author": "Hamza Qaisrani",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hamzahayat/dynamicly-injected-redux/issues"
+    "url": "https://github.com/hamzahayat/dynamically-injected-reducer/issues"
   },
-  "homepage": "https://github.com/hamzahayat/dynamicly-injected-redux#readme",
+  "homepage": "https://github.com/hamzahayat/dynamically-injected-reducer#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",

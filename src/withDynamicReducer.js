@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { ReactReduxContext } from 'react-redux';
-import PropTypes from 'prop-types';
+import { DYNAMIC_REDUCER_INIT_ACTION } from './constants';
 
 const getIdentifier = (
   name,
@@ -27,6 +27,7 @@ const withDynamicReducer = (reducer = null, key = null, reducerName = null) => C
         this.identifier = getIdentifier(this.reducerName, reducer, keyToUse);
 
         store.reducerManager.add(this.identifier, this.reducerName, reducer);
+        store.dispatch(DYNAMIC_REDUCER_INIT_ACTION(this.identifier));
       }
     }
 

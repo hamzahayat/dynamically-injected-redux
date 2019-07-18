@@ -66,8 +66,6 @@ const createReducerManager = initialReducers => {
         keysToRemove = [];
       }
 
-      console.log('reducing...', state);
-
       return combinedReducer(state, action);
     },
 
